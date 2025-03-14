@@ -13,12 +13,12 @@
         "build": "rollup -c",
         "prepublishOnly": "npm run build",
         "docs": "typedoc --out docs src/index.js"
-
     },
     "devDependencies": {
         "@rollup/plugin-node-resolve": "^15.2.3",
         "rollup": "^4.18.0",
         "rollup-plugin-copy": "^3.5.0",
+        "size-limit": "^11.2.0",
         "typedoc": "^0.27.9"
     },
     "sideEffects": false,
@@ -28,10 +28,5 @@
             "require": "./dist/float-toolbar.umd.js"
         },
         "./assets/*": "./dist/assets/*"
-    },
-    "dependencies": {
-        "@babel/core": "^7.26.10",
-        "@babel/preset-env": "^7.26.9",
-        "@rollup/plugin-babel": "^6.0.4"
     }
 }
