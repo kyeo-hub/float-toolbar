@@ -1,6 +1,5 @@
 import resolve from '@rollup/plugin-node-resolve';
 import copy from 'rollup-plugin-copy';
-import babel from '@rollup/plugin-babel';
 
 
 export default {
@@ -26,10 +25,6 @@ export default {
       targets: [
         { src: 'assets/**/*', dest: 'dist/assets' }
       ]
-    }),
-    babel({ 
-      babelHelpers: 'bundled',
-      presets: [['@babel/preset-env', { targets: '> 0.5%, not dead' }]]
     })
   ]
 };
