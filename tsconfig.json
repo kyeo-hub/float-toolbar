@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./dist",
+    "rootDir": "./src" 
+  },
+  "include": ["src/**/*", "types/index.d.ts"]
+}
