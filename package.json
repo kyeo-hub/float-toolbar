@@ -4,6 +4,7 @@
     "main": "dist/float-toolbar.umd.js",
     "module": "dist/float-toolbar.esm.js",
     "types": "types/index.d.ts",
+    "type": "module",
     "files": [
         "dist",
         "types"
