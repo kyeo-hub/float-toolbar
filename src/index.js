@@ -85,8 +85,7 @@ class FloatToolbar {
       .ft-nsl-li-top-icon {
           width: 20px;
           margin: 0 auto;
-          padding-top: 30px;
-          margin-bottom: -10px;
+          margin-bottom: 5px;
       }
       .ft-nsl-li-top-icon img{
         width: 20px;
@@ -122,7 +121,7 @@ class FloatToolbar {
       }
 
       .ft-nlbw-li {
-          padding: 30px 70px 38px 38px;
+          padding: 30px 38px;
           width: 300px;
           text-align: center;
           position: relative;
