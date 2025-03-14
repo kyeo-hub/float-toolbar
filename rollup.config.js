@@ -9,6 +9,7 @@ export default {
       file: 'dist/float-toolbar.umd.js',
       format: 'umd',
       name: 'FloatToolbar',
+      exports: 'named',
       globals: { 
         'lodash': '_',
         'document': 'document' }
@@ -17,6 +18,11 @@ export default {
       file: 'dist/float-toolbar.esm.js',
       format: 'es',
       globals: { 'document': 'document' }
+    },
+    {
+      file: 'dist/float-toolbar.cjs.js',
+      format: 'cjs',
+      exports: 'auto'
     }
   ],
   plugins: [
