@@ -392,3 +392,6 @@ class FloatToolbar {
     this.toggleBtn.remove();
   }
 }
+
+
+export default FloatToolbar
